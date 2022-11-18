@@ -11,5 +11,5 @@ import ReactDOM from "react-dom/client";
 // 引入根组件
 import App from "./App";
 
-// ReactDOM.render(<App />, document.getElementById('root'))
+// ReactDOM.render(<App />, document.getElementById("root"));
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
