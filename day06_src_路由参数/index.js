@@ -6,10 +6,14 @@
 // 3. 样式文件/图片..
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 
-import "./index.css";
-
+// 主入口文件引入BrowserRouter文件，监听路径的变化
 // 引入根组件
 import App from "./App";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+ReactDOM.createRoot(document.getElementById("root")).render(
+	<BrowserRouter>
+		<App />
+	</BrowserRouter>
+);
