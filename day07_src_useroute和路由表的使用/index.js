@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Provider } from "react-redux";
+import { BrowserRouter } from "react-router-dom";
 
 import App from "./App";
-import store from "./redux/store";
 
 // ReactDOM.render(<App />, document.getElementById("root"));
 ReactDOM.createRoot(document.getElementById("root")).render(
-	// 作用: 是把store传递给项目中所有的和redux关联的那个高阶组件
-	<Provider store={store}>
+	<BrowserRouter>
 		<App />
-	</Provider>
+	</BrowserRouter>
 );

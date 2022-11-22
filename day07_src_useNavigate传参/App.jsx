@@ -23,8 +23,8 @@ export default function App() {
 				<Route path='/home/search' element = {<Search></Search>}></Route>
 				<Route path='/home/nav' element = {<Nav></Nav>}></Route>
 			</Route>
-			<Route path = "about" >
-				<Route path=':id' element = {<About></About>}></Route>
+			<Route path = "/about" >
+				<Route path='/about/:id' element = {<About></About>}></Route>
 				<Route path='' element = {<About></About>}></Route>
 			</Route>
 		</Routes>
