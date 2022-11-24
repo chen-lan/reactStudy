@@ -4,7 +4,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const countSlice = createSlice({
-	name: "xxx",
+	name: "xxx", //slice的名字
 	initialState: {
 		count: 0,
 		msg: "reduxjs/toolkit",

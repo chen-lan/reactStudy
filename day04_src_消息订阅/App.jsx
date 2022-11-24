@@ -106,7 +106,7 @@ export default class App extends Component {
 				}}>取消car订阅</button>
 				{/* 取消所有订阅 */}
 				<button onClick={()=>{
-					PubSub.clearAllSubscriptions("car");
+					PubSub.clearAllSubscriptions();
 				}}>取消car订阅</button>
 			</div>
 		);

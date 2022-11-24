@@ -24,6 +24,7 @@ export default function App () {
           <div className='col-xs-6'>
             <div className='panel'>
               <div className='panel-body'>
+                {/* useRoutes是一个hook，useRoutes 根据路由表返回 Routes 和 Route.所以以后就不需要自己写 Routes 和 Route 了 */}
                 {useRoutes(routes)}
               </div>
             </div>

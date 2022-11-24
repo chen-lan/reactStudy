@@ -38,7 +38,7 @@ export default class Count extends Component{
             <div>
                 <span>{this.state.count}</span>
                 <br/>
-                {/* 由于箭头函数无this指向，所以想外的render函数查找，render函数this指向的是类的实例对象 */}
+                {/* 由于箭头函数无this指向，所以向外的render函数查找，render函数this指向的是类的实例对象 */}
                 {/* <button onClick={()=>this.addCount()}> + </button> */}
                 <button onClick={()=>this.addCount()}> + </button>
             </div>
