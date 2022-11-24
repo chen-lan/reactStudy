@@ -4,10 +4,9 @@
 // 1. 第三方包
 // 2. 自定义的
 // 3. 样式文件/图片..
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
 // 引入根组件
-import App from "./App";
-
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+import App from './App'
+ReactDOM.createRoot(document.getElementById('root')).render(<App />)

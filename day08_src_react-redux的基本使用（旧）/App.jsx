@@ -11,6 +11,7 @@ export default function App () {
   })(Count)
     return (
       <div>
+        {/* count:state.count,作为组件props参数进行递 */}
         <WithCount></WithCount>
         <hr />
       </div>
