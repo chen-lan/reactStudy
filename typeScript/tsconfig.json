@@ -1,0 +1,6 @@
+// 此文件配置tsc代码文件批量编译成js代码
+{
+    "compilerOptions": {
+        "noEmitOnError": true
+    }
+}
